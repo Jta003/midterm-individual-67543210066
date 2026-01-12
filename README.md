@@ -80,3 +80,18 @@ npm start
 
 # 4. Test API
 # Open browser: http://localhost:3000
+```
+
+📡 API Endpoints
+Method	Endpoint	Description	Request Body Example
+GET	/api/books	Get all books	-
+GET	/api/books/:id	Get book by ID	-
+POST	/api/books	Create a new book	{ "title": "Book 1", "author": "Author 1", "isbn": "1234567890", "status": "available" }
+PUT	/api/books/:id	Update book info	{ "title": "Updated Title", "author": "New Author", "isbn": "0987654321", "status": "borrowed" }
+PATCH	/api/books/:id/status	Update only book status	{ "status": "available" }
+DELETE	/api/books/:id	Delete a book	-
+
+Notes:
+All responses are in JSON format.
+Status can be "available" or "borrowed".
+Validation is handled in business layer (bookValidator.js).
