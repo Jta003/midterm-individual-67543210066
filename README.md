@@ -7,7 +7,7 @@
 
 ## 🏗️ Architecture Style
 Layered Architecture (3-tier)
-
+```text
 ## 📂 Project Structure
 midterm-individual-67543210066-6/
 ├── src/
@@ -43,7 +43,7 @@ midterm-individual-67543210066-6/
 ├── package-lock.json
 ├── library.db
 └── README.md
-
+```
 
 ## 🎯 Refactoring Summary
 
